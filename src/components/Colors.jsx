@@ -4,7 +4,7 @@ import { Sparkles, Shirt } from 'lucide-react';
 const colors = [
   {
     name: "Lime Zest",
-    hex: "#bef264", // Un beau vert citron vibrant
+    hex: "#BBF7D0", 
     description: "Une touche de fraîcheur printanière pour illuminer nos souvenirs.",
     height: "h-64", // Hauteur variée style Pinterest
     delay: 0.1

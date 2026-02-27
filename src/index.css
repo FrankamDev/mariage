@@ -5,8 +5,7 @@
 @layer base {
   .font-wedding-script {
     font-family: 'Great Vibes', cursive;
-    /* Un léger espacement des lettres n'est pas nécessaire pour la cursive, 
-       mais on peut ajuster la fluidité ici */
+   
   }
 }
 .font-serif-premium { font-family: 'Cormorant Garamond', serif; }
