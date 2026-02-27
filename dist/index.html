@@ -1,49 +1,72 @@
 <!doctype html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-    <!-- Titre -->
-    <title>Clémence & Elias — 11.04.2026</title>
+  <!-- Titre principal (court et accrocheur) -->
+  <title>Clémence & Elias — Mariage 11.04.2026</title>
 
-    <!-- Description -->
-    <meta name="description" content="Invitation au mariage le 11 avril 2026." />
+  <!-- Description SEO (max 160 caractères idéalement) -->
+  <meta name="description" content="Rejoignez-nous le 11 avril 2026 à Bafoussam pour célébrer notre union. Programme, lieu, tenue & RSVP en ligne." />
 
-    <!-- Open Graph (WhatsApp, Facebook, LinkedIn) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Clémence & Elias — 11.04.2026" />
-    <meta property="og:description" content="Invitation au mariage le 11 avril 2026." />
-    <meta property="og:url" content="https://welcome.getomiie.com/" />
+  <!-- Open Graph – très important pour Facebook, WhatsApp, Instagram, LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://welcome.getomiie.com/" />
+  <meta property="og:title" content="Clémence & Elias — 11.04.2026" />
+  <meta property="og:description" content="Une journée magique d’amour et de partage à Bafoussam. Découvrez le programme et confirmez votre présence." />
+  <meta property="og:image" content="https://welcome.getomiie.com/ok.jpg" />
+  <meta property="og:image:secure_url" content="https://welcome.getomiie.com/ok.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Clémence et Elias – Invitation au mariage 11 avril 2026" />
+  <meta property="og:site_name" content="Clémence & Elias" />
+  <meta property="og:locale" content="fr_FR" />
 
-    
-    <meta property="og:image" content="https://welcome.getomiie.com/ok.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+  <!-- Twitter / X Cards – pour les grandes previews -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Clémence & Elias — Mariage 11.04.2026" />
+  <meta name="twitter:description" content="Rejoignez-nous pour notre union le 11 avril 2026 à Bafoussam." />
+  <meta name="twitter:image" content="https://welcome.getomiie.com/ok.jpg" />
+  <meta name="twitter:image:alt" content="Clémence et Elias – Mariage 11.04.2026" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Clémence & Elias — 11.04.2026" />
-    <meta name="twitter:description" content="Invitation au mariage le 11 avril 2026." />
-    <meta name="twitter:image" content="https://welcome.getomiie.com/ok.jpg" />
+  <!-- Icônes et PWA-like (pour ajout à l'écran d'accueil) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Favicon -->
-    <link rel="icon" href="/cool.jpg" />
+  <!-- Theme color (barre navigateur mobile) -->
+  <meta name="theme-color" content="#fdfaf7" />
+  <meta name="msapplication-TileColor" content="#fdfaf7" />
 
-    <!-- Styles minimaux -->
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background: #ffffff;
-      }
-    </style>
-    <script type="module" crossorigin src="/assets/index-NCtM55ES.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DEX3w_Ts.css">
-  </head>
+  <!-- Fonts Google – préchargées pour éviter le FOUC -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
 
-  <body>
-    <div id="root"></div>
-  </body>
+  <!-- Style minimal anti-FOUC -->
+  <style>
+    :root {
+      --bg: #fdfaf7;
+      --text: #2d1e12;
+      --accent: #c9a96e;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Lora', serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-NCtM55ES.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DEX3w_Ts.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
 </html>
