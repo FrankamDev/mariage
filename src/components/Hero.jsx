@@ -41,10 +41,10 @@ function Hero() {
 
       initial="hidden"
       animate="visible"
-      className="relative min-h-screen bg-[url('/cool1.jpg')] bg-cover bg-center flex items-center justify-center overflow-hidden"
+      className="relative -mt-32 min-h-screen bg-[url('/cool1.jpg')] bg-cover bg-center flex items-center justify-center overflow-hidden"
     >
-      {/* Background : Particules Romantiques animées */}
-      <div className="absolute inset-0 pointer-events-none bg-black/80">
+      
+      <div className="absolute inset-0 pointer-events-none bg-black/60">
         {[...Array(20)].map((_, i) => (
           <motion.div
             key={i}
@@ -107,7 +107,7 @@ function Hero() {
             Clémence <span className="text-4xl sm:text-6xl align-middle font-serif-premium italic">&</span> Elias
           </motion.h1>
 
-          {/* Décoration Centrale animée */}
+         
           <motion.div variants={itemVariants} className="flex items-center justify-center gap-6 my-8">
             <motion.div 
               initial={{ width: 0 }} 

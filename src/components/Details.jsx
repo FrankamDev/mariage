@@ -210,8 +210,8 @@ export default function Details() {
   className="text-7xl sm:text-8xl lg:text-9xl text-gray-900 drop-shadow-sm"
   style={{ 
     fontFamily: "'Great Vibes', cursive",
-    fontWeight: 400, // Les polices script ne supportent souvent qu'un seul poids
-    paddingBottom: "20px" // Pour éviter que les boucles de lettres soient coupées
+    fontWeight: 400, 
+    paddingBottom: "20px" 
   }}
 >
   Détails

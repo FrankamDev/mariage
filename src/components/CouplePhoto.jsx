@@ -94,7 +94,7 @@ export default function CouplePhoto() {
   ref={containerRef}
   className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black"
 >
-  {/* Texture & Frame */}
+
   <div className="film-grain absolute inset-0 z-10 pointer-events-none" />
   <div className="inner-frame absolute inset-0 z-10 pointer-events-none" />
 
