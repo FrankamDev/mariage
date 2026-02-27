@@ -156,7 +156,7 @@ export default function CouplePhoto() {
         className="pt-12"
       >
         <p className="text-amber-200 tracking-[0.3em] text-sm uppercase">
-          À très bientôt • 10 . 04 . 2026
+          À très bientôt • 11 . 04 . 2026
         </p>
       </motion.div>
     </motion.div>
