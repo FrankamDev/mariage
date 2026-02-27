@@ -93,7 +93,7 @@ function Hero() {
             className="absolute -bottom-6 -right-4 bg-white p-4 shadow-xl rounded-lg rotate-3"
           >
              <p className="font-serif-premium text-gray-800 font-bold tracking-widest text-sm uppercase">Samedi</p>
-             <p className="font-serif-premium text-2xl text-amber-800">10 Avril 2026</p>
+             <p className="font-serif-premium text-2xl text-amber-800">11 Avril 2026</p>
           </motion.div>
         </motion.div>
 
@@ -133,7 +133,7 @@ function Hero() {
           </motion.p>
 
           <motion.p variants={itemVariants} className="font-lora text-yellow-200 tracking-wide pt-4">
-            BAFOUSSAM, BELLE VUE, 10 AVRIL 2026
+            BAFOUSSAM, BELLE VUE, 11 AVRIL 2026
           </motion.p>
         </div>
 
