@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+
+@layer base {
+  .font-wedding-script {
+    font-family: 'Great Vibes', cursive;
+    /* Un léger espacement des lettres n'est pas nécessaire pour la cursive, 
+       mais on peut ajuster la fluidité ici */
+  }
+}
+.font-serif-premium { font-family: 'Cormorant Garamond', serif; }
+.font-script { font-family: 'Great Vibes', cursive; }

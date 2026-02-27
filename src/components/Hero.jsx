@@ -10,7 +10,7 @@ function Hero() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.3, // Délai entre chaque élément
+        staggerChildren: 0.3, 
         delayChildren: 0.5,
       },
     },
@@ -85,7 +85,7 @@ function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
           </div>
           
-          {/* Badge Date flottant */}
+         
           <motion.div 
             initial={{ x: 20, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -97,7 +97,6 @@ function Hero() {
           </motion.div>
         </motion.div>
 
-        {/* Titre Principal */}
         <div className="text-center space-y-6">
           <motion.h2 variants={itemVariants} className="font-serif-premium text-lg tracking-[0.3em] text-gray-300 uppercase">
             Célébration de l'Union
