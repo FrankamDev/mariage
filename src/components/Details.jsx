@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const details = [
   { icon: CalendarDays, title: "La Date", text: "Samedi 11 Avril 2026" },
-  { icon: Clock, title: "L'Instant", text: "Mairie à 10h00\nBénédiction à 15h00" },
+  { icon: Clock, title: "L'Instant", text: "Mairie 10h00\nBénédiction 15h00" },
   { icon: MapPin, title: "Le Lieu", text: "Bafoussam, BelleVue\n Lieu Evennementiel" },
   { icon: Users, title: "Dress Code", text: "Chic & Élégant | Glamour\nUne touche de Vert soge" },
 ];
