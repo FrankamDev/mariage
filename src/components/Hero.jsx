@@ -41,7 +41,7 @@ function Hero() {
 
       initial="hidden"
       animate="visible"
-      className="relative -mt-32 min-h-screen bg-[url('/cool1.jpg')] bg-cover bg-center flex items-center justify-center overflow-hidden"
+      className="relative -mt-42 min-h-screen bg-[url('/cool1.jpg')] bg-cover bg-center flex items-center justify-center overflow-hidden"
     >
       
       <div className="absolute inset-0 pointer-events-none bg-black/60">
