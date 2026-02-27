@@ -70,7 +70,7 @@ function Hero() {
         className="relative z-10 w-full max-w-5xl px-6 flex flex-col items-center"
       >
         
-        {/* Cadre Image Premium avec effet de flottement */}
+        
         <motion.div 
           variants={photoVariants}
           whileHover={{ scale: 1.02 }}
